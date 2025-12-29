@@ -1,0 +1,4 @@
+Before you begin, please make sure you’re using Python 3.10 and that MediaPipe (v0.10.5) is 
+installed in your environment. You can install the correct version by running pip install 
+mediapipe==0.10.5 in your terminal—this ensures compatibility and helps avoid common setup 
+issues during the activity. 
