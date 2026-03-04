@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+h1 {
+    color: #58A6FF;
+}
+
+/* Attribute Selector */
+a {
+    color: #8B949E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1F6FEB;
+}
+
+/* Child Selector */
+ul > li {
+    font-weight: bold;
+}
+
+/* Sibling Selector */
+h1 + p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* :hover Pseudo-class */
+ul li:hover {
+    color: #4F8CC9;
+}
+
+/* :nth-child(n) Pseudo-class */
+ul li:nth-child(3) {
+    background-color: #21262D;
+}
+
+/* :not(selector) Pseudo-class */
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+/* ::before Pseudo-element */
+ul li::before {
+    content: "";
+}
+
+/* ::after Pseudo-element */
+a::after {
+    content: "";
+}
+
+/* ::first-letter Pseudo-element */
+p::first-letter {
+    font-size: 200%;
+    color: #FF7B72;
+}
