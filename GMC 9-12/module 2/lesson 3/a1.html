@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Superhero Card</title>
+  <style>
+
+    /* Typography — font, size, weight, colour for the whole page */
+    body {
+      background-color: darkblue;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Typography + Text Shadow — big bold title with an orange shadow */
+    .hero-name {
+      font-size: 60px;
+      font-weight: bold;
+      color: yellow;
+      text-shadow: 3px 3px orange;
+    }
+
+    /* Typography + Text Transform — tagline becomes Title Case */
+    .tagline {
+      font-style: italic;
+      color: lightblue;
+      text-transform: capitalize;
+    }
+
+    /* Text Transform + Text Decoration — section headings in CAPS with underline */
+    .label {
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: coral;
+    }
+
+    /* Typography — powers stand out in bold green */
+    .power {
+      font-weight: bold;
+      color: lightgreen;
+    }
+
+    /* Text Decoration — weaknesses are crossed out */
+    .weakness {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    /* Transform — the badge is tilted to the side */
+    .badge {
+      font-size: 28px;
+      font-weight: bold;
+      color: gold;
+      transform: rotate(15deg);
+    }
+
+    /* Typography — footer text */
+    .made-by {
+      color: coral;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="hero-name">Thunder Kid</h1>
+  <p class="tagline">the most powerful hero in the school</p>
+
+  <h2 class="label">super powers</h2>
+  <p class="power">Can run faster than a cheetah</p>
+  <p class="power">Can lift a school bus</p>
+
+  <h2 class="label">weaknesses</h2>
+  <p class="weakness">Maths homework</p>
+  <p class="weakness">Broccoli</p>
+
+  <p class="badge">Top Hero</p>
+
+  <p class="made-by">Created by ___________</p>
+
+</body>
+</html>
